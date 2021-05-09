@@ -24,7 +24,7 @@ When this function returns, result must contain one copy of each of the values t
 
      9 6 2 10
 
-#infixBoolean 
+# infixBoolean 
 This is a function that evaluates an infix boolean expression, consisting of the binary boolean infix operators & (meaning and) and ^ (meaning exclusive or), the unary boolean prefix operator ! (meaning not), parentheses, and the operands T and F, with blanks allowed for readability. (a^b means a is true or b is true, but not both). Following convention, ! has higher precedence than &, which has higher precedence than ^, and operators of equal precedence associate left to right (so the postfix form of T^F^T is TF^T^, not TFT^^, which would be the postfix form of T^(F^T). In evaluating the expressions, T represents the value true, and F false.
 
 Some examples:
@@ -38,4 +38,7 @@ Some examples:
         T^F&F                      evaluates to true
         T&!(F^T&T^F)^!!!(F&T&F)    evaluates to true
 
+# quickSort & inheritance
+quickSort.cpp is an implementation of the quickSort algorithm. See also, countIncludes is a recursive problem that counts the number of permutations for which an array can be found in a second array.
 
+inheritance.cpp is some basic practice with inheritance, using four classes and one level of abstraction (the Medium type, from which the TwitterAccounut, EmailAccount, and Phone objects are derived).

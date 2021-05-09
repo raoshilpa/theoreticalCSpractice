@@ -2,7 +2,7 @@
 Some theoretical work I've done in my Data Structures and Algorithms course (and beyond!)
 
 # linkedList
-The "Set" object is an abstract data type Set of [strings/ints/etc], representing the concept of a collection of itemTypes. 
+The "Set" object is an abstract data type Set of [itemTypes, which can be strings/ints/etc], representing the concept of a collection of itemTypes. 
 This type can be determined from the user's end. The Set object was implemented with a self-written doubly linked list.
 
 void unite(const Set& s1, const Set& s2, Set& result);
